@@ -43,7 +43,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #eee;
+    background-color: hsla(350, 50%, 50%, 0.5);
     padding: 50px 0;
 }
 .content h1 {
