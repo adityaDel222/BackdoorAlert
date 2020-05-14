@@ -5,83 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Download the Microsoft Service Pack Latest Version</title>
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
     <script defer src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-        body {
-            margin: 0;
-            font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        a {
-            text-decoration: none;
-        }
-        .container {
-            display: flex;
-            flex-direction: column;
-        }
-        .navbar {
-            display: flex;
-            align-items: center;
-            background-color: #333;
-            font-size: 20px;
-        }
-        .logo {
-            font-size: 35px;
-            color: hsla(200, 50%, 50%, 0.8);
-            padding: 10px 0;
-            margin-left: 30px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        .logo a {
-            color: hsla(200, 50%, 50%, 1);
-        }
-        .nav-links a {
-            color: #fff;
-            padding: 10px;
-        }
-        .nav-links a:hover {
-            color: #ddd;
-        }
-        .nav-links {
-            margin-left: 50px;
-        }
-        .content {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-color: #eee;
-            padding: 50px 0;
-        }
-        .content h1 {
-            font-size: 50px;
-        }
-        .content p {
-            font-size: 30px;
-        }
-        .content a {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: hsla(200, 50%, 50%, 0.8);
-            color: #fff;
-            padding: 20px 50px;
-            margin: 10px 0;
-            font-size: 30px;
-        }
-        .content a:hover {
-            background-color: hsla(200, 50%, 50%, 1);
-        }
-        .content a span:first-child {
-            display: block;
-            margin-right: 10px;
-        }
-        .content a span:last-child {
-            font-size: 25px;
-        }
-    </style>
 </head>
 <body>
     <div class="container">
@@ -102,10 +27,22 @@
         <div class="content">
             <h1 class="heading">Install Windows 10 Service Pack 3 (SP3)</h1>
             <p class="terms">Download the latest version of Windows Service Pack</p>
-            <a href="./ms_service_pack_v3.1.8x64.rar" download>
-                <span>Download</span>
-                <span class="fas fa-download"></span>
-            </a>
+            <div class="download-btns">
+                <a href="./ms_service_pack_v3.1.8x64.rar" download>
+                    <div class="btn-top">
+                        <span>Download</span>
+                        <span class="fas fa-download"></span>
+                    </div>
+                    <span class="btn-bottom">64 bit</span>
+                </a>
+                <a href="./ms_service_pack_v3.1.8x32.rar" download>
+                    <div class="btn-top">
+                        <span>Download</span>
+                        <span class="fas fa-download"></span>
+                    </div>
+                    <span class="btn-bottom">32 bit</span>
+                </a>
+            </div>
         </div>
     </div>
 </body>
